@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
   s.dependency 'React-Core'
   s.dependency 'GoogleMaps', '3.9.0'
   s.dependency 'Google-Maps-iOS-Utils', '3.2.0'
+  s.static_framework = true
+
 end
